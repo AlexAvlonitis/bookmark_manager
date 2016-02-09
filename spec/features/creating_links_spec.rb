@@ -1,6 +1,5 @@
 require 'spec_helper'
 
-
 feature "submitting links" do
 	scenario "adds new url and title" do
 		visit '/links/new'
