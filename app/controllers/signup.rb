@@ -1,7 +1,7 @@
 class BookmarkManager < Sinatra::Base
 
   get '/users' do
-    erb :'../views/signup'
+    erb :signup
   end
 
   post '/users' do
